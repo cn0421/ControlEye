@@ -15,6 +15,7 @@ Thumbs.db
 *.log
 *.inbpy
 screen_config.ini
+*.ico
 
 # Python 缓存文件
 __pycache__/
