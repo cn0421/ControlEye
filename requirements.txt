@@ -1,0 +1,4 @@
+Pillow>=8.0.0
+pywin32>=227
+screeninfo>=0.8.1
+keyboard>=0.13.5
