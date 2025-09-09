@@ -1,12 +1,15 @@
 logs/
+dist/
 venv/
 test/
+build/
 projects/
 output/
 config.ini
 db.sqlite3
 Thumbs.db
 .DS_Store
+*.spec
 *.bak
 *.tmp
 *.log

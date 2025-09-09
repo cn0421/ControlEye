@@ -645,6 +645,11 @@ class ScreenController:
                             width=12)
         reset_btn.pack(side=tk.RIGHT, padx=5)
         
+        # 重置显示器说明文本
+        reset_info_label = tk.Label(control_frame, text="熄屏后需用重置显示器恢复。也可用快捷键CTRL+ALT+X恢复⇢", 
+                                   font=("./29华康宋体W3.ttf", 9), fg="#666666")
+        reset_info_label.pack(side=tk.RIGHT, padx=5)
+        
         # 为重置按钮添加工具提示
         ToolTip(reset_btn, "快捷键: Ctrl+Alt+X")
     
